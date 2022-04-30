@@ -15,7 +15,7 @@
 		curl_setopt($ch, CURLOPT_CUSTOMREQUEST, "GET");
 		$resultado = json_decode(curl_exec($ch));
 
-		//var_dump($resultado);
+		var_dump($resultado);
 
 		//foreach ($resultado->results as $ator) {
 		    //var_dump($ator);
